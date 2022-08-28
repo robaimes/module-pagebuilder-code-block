@@ -90,6 +90,7 @@
         </field>
         <field name="language" sortOrder="20" formElement="select">
             <settings>
+                <dataScope>language</dataScope>
                 <dataType>text</dataType>
             </settings>
             <formElements>
