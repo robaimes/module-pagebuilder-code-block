@@ -1,0 +1,21 @@
+{
+  "name": "aimes/module-page-builder-code-block",
+  "version": "1.0.0",
+  "description": "N/A",
+  "type": "magento2-module",
+  "require": {
+    "magento/framework": "*",
+    "magento/module-page-builder": "^2.2"
+  },
+  "license": [
+    ""
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Aimes\\PageBuilderCodeBlock\\": ""
+    }
+  }
+}
