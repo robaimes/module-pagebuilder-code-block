@@ -22,16 +22,64 @@
         <arguments>
             <argument name="languages" xsi:type="array">
                 <item name="javascript" xsi:type="array">
-                    <item name="value" xsi:type="string">javascript</item>
+                    <item name="value" xsi:type="string">language-javascript</item>
                     <item name="label" translate="true" xsi:type="string">JavaScript</item>
                 </item>
                 <item name="php" xsi:type="array">
-                    <item name="value" xsi:type="string">php</item>
+                    <item name="value" xsi:type="string">language-php</item>
                     <item name="label" translate="true" xsi:type="string">PHP</item>
                 </item>
                 <item name="xml" xsi:type="array">
-                    <item name="value" xsi:type="string">xml</item>
+                    <item name="value" xsi:type="string">language-xml</item>
                     <item name="label" translate="true" xsi:type="string">XML</item>
+                </item>
+                <item name="html" xsi:type="array">
+                    <item name="value" xsi:type="string">language-html</item>
+                    <item name="label" translate="true" xsi:type="string">HTML</item>
+                </item>
+                <item name="css" xsi:type="array">
+                    <item name="value" xsi:type="string">language-css</item>
+                    <item name="label" translate="true" xsi:type="string">CSS</item>
+                </item>
+                <item name="sql" xsi:type="array">
+                    <item name="value" xsi:type="string">language-sql</item>
+                    <item name="label" translate="true" xsi:type="string">SQL</item>
+                </item>
+                <item name="json" xsi:type="array">
+                    <item name="value" xsi:type="string">language-json</item>
+                    <item name="label" translate="true" xsi:type="string">JSON</item>
+                </item>
+                <item name="diff" xsi:type="array">
+                    <item name="value" xsi:type="string">language-diff</item>
+                    <item name="label" translate="true" xsi:type="string">Diff</item>
+                </item>
+                <item name="less" xsi:type="array">
+                    <item name="value" xsi:type="string">language-less</item>
+                    <item name="label" translate="true" xsi:type="string">LESS</item>
+                </item>
+                <item name="sass" xsi:type="array">
+                    <item name="value" xsi:type="string">language-sass</item>
+                    <item name="label" translate="true" xsi:type="string">SASS</item>
+                </item>
+                <item name="plaintext" xsi:type="array">
+                    <item name="value" xsi:type="string">language-plaintext</item>
+                    <item name="label" translate="true" xsi:type="string">Plaintext</item>
+                </item>
+                <item name="shell" xsi:type="array">
+                    <item name="value" xsi:type="string">language-shell</item>
+                    <item name="label" translate="true" xsi:type="string">Shell</item>
+                </item>
+                <item name="yaml" xsi:type="array">
+                    <item name="value" xsi:type="string">language-yaml</item>
+                    <item name="label" translate="true" xsi:type="string">YAML</item>
+                </item>
+                <item name="graphql" xsi:type="array">
+                    <item name="value" xsi:type="string">language-graphql</item>
+                    <item name="label" translate="true" xsi:type="string">GraphQL</item>
+                </item>
+                <item name="dockerfile" xsi:type="array">
+                    <item name="value" xsi:type="string">language-dockerfile</item>
+                    <item name="label" translate="true" xsi:type="string">Dockerfile</item>
                 </item>
             </argument>
         </arguments>

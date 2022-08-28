@@ -27,7 +27,7 @@ class Languages implements OptionSourceInterface
     }
 
     /**
-     * Get all supported language options with a 'No longuage' option
+     * Get all supported language options with a 'No language' option
      *
      * @return array
      */

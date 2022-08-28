@@ -8,7 +8,6 @@
 <page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
     <head>
-        <css src="Aimes_PageBuilderCodeBlock::css/androidstudio.min.css"/>
-        <css src="Aimes_PageBuilderCodeBlock::css/highlight-copy.min.css"/>
+        <script src="Aimes_PageBuilderCodeBlock::js/init-code-block.js" defer="defer"/>
     </head>
 </page>

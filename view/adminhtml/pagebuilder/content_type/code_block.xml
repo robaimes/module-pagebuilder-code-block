@@ -40,8 +40,8 @@
                         <css name="css_classes"/>
                     </element>
                     <element name="code">
-                        <html name="content" converter="Magento_PageBuilder/js/converter/html/tag-escaper"/>
-                        <attribute name="language" source="data-language"/>
+                        <html name="content"/>
+                        <css name="language"/>
                     </element>
                 </elements>
             </appearance>

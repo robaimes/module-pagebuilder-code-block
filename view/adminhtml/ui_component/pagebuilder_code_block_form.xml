@@ -88,9 +88,7 @@
                 <label translate="true">Content</label>
             </settings>
         </field>
-        <field name="language"
-               formElement="select"
-               sortOrder="20">
+        <field name="language" sortOrder="20" formElement="select">
             <settings>
                 <dataType>text</dataType>
             </settings>
