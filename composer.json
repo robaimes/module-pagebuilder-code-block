@@ -1,21 +1,27 @@
 {
-  "name": "aimes/module-page-builder-code-block",
-  "version": "1.0.0",
-  "description": "N/A",
-  "type": "magento2-module",
-  "require": {
-    "magento/framework": "*",
-    "magento/module-page-builder": "^2.2"
-  },
-  "license": [
-    ""
-  ],
-  "autoload": {
-    "files": [
-      "registration.php"
+    "name": "aimes/module-page-builder-code-block",
+    "type": "magento2-module",
+    "description": "Display fancy code snippets via PageBuilder",
+    "license": [
+        "GPL-3.0-or-later"
     ],
-    "psr-4": {
-      "Aimes\\PageBuilderCodeBlock\\": ""
+    "authors": [
+        {
+            "name": "Rob Aimes",
+            "email": "rob@aimes.dev",
+            "homepage": "https://aimes.dev"
+        }
+    ],
+    "require": {
+        "magento/framework": "*",
+        "magento/module-page-builder": "^2.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Aimes\\PageBuilderCodeBlock\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
     }
-  }
 }

@@ -83,6 +83,9 @@
         </settings>
         <field name="content" sortOrder="10" formElement="textarea">
             <settings>
+                <additionalClasses>
+                    <class name="code-sample">true</class>
+                </additionalClasses>
                 <dataScope>content</dataScope>
                 <dataType>text</dataType>
                 <label translate="true">Content</label>
@@ -92,6 +95,7 @@
             <settings>
                 <dataScope>language</dataScope>
                 <dataType>text</dataType>
+                <label translate="true">Language</label>
             </settings>
             <formElements>
                 <select>
